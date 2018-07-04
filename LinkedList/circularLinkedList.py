@@ -70,7 +70,7 @@ print("Linked List")
 l = LinkedList()
 ch = [0]
 while ch[0] != 5:
-    ch = list(map(int,input("\n1. Insert at Begining(1,data)\n2. Insert at End(2,data)\n3. Print the linked list\n4. Delete a node(4,data)\n5. Exit\nEnter your choice: ").split()))
+    ch = list(map(int,input("\n1. Insert at Begining(1 data)\n2. Insert at End(2 data)\n3. Print the linked list\n4. Delete a node(4 data)\n5. Exit\nEnter your choice: ").split()))
     if ch[0] == 1:
         l.insertBeg(ch[1])
     elif ch[0] == 2:
